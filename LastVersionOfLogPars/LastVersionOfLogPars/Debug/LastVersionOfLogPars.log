@@ -1,0 +1,14 @@
+﻿  LastVersionOfLogPars.cpp
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(284,21): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(308,70): warning C4129: ';': unrecognized character escape sequence
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(377,86): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(382,22): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(398,22): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(424,20): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(436,20): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(446,20): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(454,20): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(476,20): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(478,21): warning C4018: '<': signed/unsigned mismatch
+D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\LastVersionOfLogPars\LastVersionOfLogPars.cpp(502,20): warning C4018: '<': signed/unsigned mismatch
+  LastVersionOfLogPars.vcxproj -> D:\Belgeler\Erstream\log parser examination\LastVersionOfLogPars\Debug\LastVersionOfLogPars.exe

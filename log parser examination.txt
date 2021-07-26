@@ -1,0 +1,43 @@
+İstenen: Verilen log dosyasından istenen bilgilerin çıkarılması
+
+Örnek bir satır:
+
+
+99.91.220.138 - - [05/Oct/2015:06:37:26 +0300] "GET /R/0A/ID_0000013091.ism/QualityLevels(1469889)/Fragments(video=14795200000) HTTP/1.1" 200 658377 "-" "Firefox/1.5" "-" rt=0.000 ut="-" cs=HIT
+
+Kullanıcı ip adresi: 99.91.220.138
+Event zamanı: [05/Oct/2015:06:37:26 +0300]
+Request method u: GET
+İçerik adresi: /R/0A/ID_0000013091.ism/QualityLevels(1469889)/Fragments(video=14795200000)
+İçerik adı: ID_0000013091
+İçerik bitrate i: QualityLevels(1469889)  Bold ile belirlitelen kısım. Bitrate değerleri için küsüratlar atılarak sadece 1400000, 800000, 400000,300000 vb şeklinde alınmalı
+İçerik tipi: Fragments(video=14795200000) Bold ile belirtilen kısım (video ya da audio olabilir)
+HTTP Status: 200
+Total sent Bytes: 658377
+User Agent: Firefox/1.5
+Cache Status: cs={STATUS} : HIT (Cache kullanılmış), MISS(cache kullanılmamış)
+
+
+Yukarıda verilen bilgiler kullanılarak örnek log dosyası üzerinde parsing işlemi gerçekleştirilmeli ve aşağıda istenen özellikler üretilmelidir. 
+
+( Bu log dosyasına özel bir çalışma olmaması gerekiyor, farklı bir log dosyası verildiğinde de düzgün çalışması gerekiyor. )
+Parsing işlemi sırasında dikkat edilmesi gereken diğer husus da uygulamanın kaynak kullanımı gözetilmelidir ve minimum kaynak kullanımı sağlanmalıdır. (CPU, RAM, I/O gibi değerler)
+
+İstenen özellikler:
+
+
+·  Kaç adet unique ip den izleme yapılmış?    (Örnek:   548)
+
+·  Kaç unique içerik izlenmiş?    (Örnek:   3242)
+
+·  Toplam ne kadar veri gönderilmiş?    (Örnek:   500 GB)
+
+·  En çok izleme yapan kullanıcı?     (Örnek:   99.91.220.138)
+
+·  En çok izlenen içerik?      (Örnek:   ID_0000013091)
+
+·  İzlenen bitratelerin oranı (video).    (Örnek:   1400000 = %80  , 800000 = %10 , 400000 = %5 , 300000 = %5)
+
+·  İzleme yapılan browserların oranı.    (Örnek:   IE = %20 , Chrome=%60 , Firefox = %20)
+
+·  HTTP status oranı    (Örnek:    2xx=%80, 403=%10, 404=%5, 5xx=%3, 3xx=%2)
